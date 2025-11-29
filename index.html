@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Kendall Faerron | Ing. en Computación</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="scripts/tailwind.config.js"></script>
+    
+    <style>
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #0a0a0a 0%, #16161d 60%, #0a0a0a 100%);
+            z-index: -2;
+        }
+        .text-balance {
+            text-wrap: balance;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-sans bg-dark-primary text-text-light min-h-screen">
+    
+    <header class="sticky top-0 z-10 bg-dark-surface/80 backdrop-blur-sm shadow-lg border-b border-creamy-purple/10">
+        <nav class="flex justify-between items-center py-4 px-4 sm:px-8 max-w-7xl mx-auto">
+            <div class="text-2xl font-extrabold tracking-wider text-creamy-purple">
+                &lt;<span class="text-purple-highlight">Kendall Faerron Murillo</span> /&gt;
+            </div>
+            
+            <div class="space-x-6 hidden sm:flex">
+                <a href="#perfil" class="text-text-light hover:text-creamy-purple transition duration-300 relative group">
+                    Perfil
+                    <span class="absolute left-0 bottom-0 w-full h-0.5 bg-creamy-purple transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                </a>
+                <a href="#acerca-de-mi" class="text-text-light hover:text-creamy-purple transition duration-300 relative group">
+                    Sobre mi
+                    <span class="absolute left-0 bottom-0 w-full h-0.5 bg-creamy-purple transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                </a>
+                <a href="#proyectos" class="text-text-light hover:text-creamy-purple transition duration-300 relative group">
+                    Proyectos
+                    <span class="absolute left-0 bottom-0 w-full h-0.5 bg-creamy-purple transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                </a>
+
+                <!-- Nuevo enlace -->
+                <a href="#contacto" class="text-text-light hover:text-creamy-purple transition duration-300 relative group">
+                    Contacto
+                    <span class="absolute left-0 bottom-0 w-full h-0.5 bg-creamy-purple transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- PERFIL -->
+    <section id="perfil" class="pt-24 pb-32 px-4 sm:px-8 mx-auto max-w-6xl">
+        <div class="grid grid-cols-1 lg:grid-cols-5 items-center gap-12">
+            <div class="order-2 lg:order-1 text-center lg:text-left lg:col-span-3">
+                <p class="text-3xl sm:text-4xl font-light mb-4 text-text-light">Hola, soy</p>
+                <h1 class="text-5xl sm:text-7xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-creamy-purple to-purple-highlight leading-tight">
+                    Kendall
+                </h1>
+                
+                <span class="inline-block px-3 py-1 text-sm font-semibold rounded-full bg-creamy-purple/10 text-creamy-purple mb-6 border border-creamy-purple/20">
+                    Estudiante de Ingeniería en Computación
+                </span>
+
+                <p class="text-lg text-text-muted mb-8 max-w-xl lg:max-w-none mx-auto lg:mx-0 text-balance">
+                    Actualmente desarrollando habilidades en sistemas, algoritmos y software moderno.
+                    Busco aplicar conocimientos en proyectos reales y seguir creciendo en el área de la tecnología.
+                </p>
+
+                <h2 class="text-xl font-bold text-creamy-purple mb-4">Habilidades Clave</h2>
+                <ul class="flex flex-wrap justify-center lg:justify-start gap-3 mb-10 list-none">
+                    
+                    <li class="px-3 py-1 bg-creamy-purple/10 text-creamy-purple rounded-lg text-sm font-medium border border-creamy-purple/20 flex items-center space-x-2">
+                        <i class="fab fa-java text-base"></i> <span>Java</span>
+                    </li>
+                    <li class="px-3 py-1 bg-creamy-purple/10 text-creamy-purple rounded-lg text-sm font-medium border border-creamy-purple/20 flex items-center space-x-2">
+                        <i class="fab fa-python text-base"></i> <span>Python</span>
+                    </li>
+                    <li class="px-3 py-1 bg-creamy-purple/10 text-creamy-purple rounded-lg text-sm font-medium border border-creamy-purple/20 flex items-center space-x-2">
+                        <i class="fab fa-git-alt text-base"></i> <span>Git & GitHub</span>
+                    </li>
+                    <li class="px-3 py-1 bg-creamy-purple/10 text-creamy-purple rounded-lg text-sm font-medium border border-creamy-purple/20 flex items-center space-x-2">
+                        <i class="fas fa-code text-base"></i> <span>Visual Basic / VBA</span>
+                    </li>
+                    <li class="px-3 py-1 bg-creamy-purple/10 text-creamy-purple rounded-lg text-sm font-medium border border-creamy-purple/20 flex items-center space-x-2">
+                        <i class="fas fa-database text-base"></i> <span>Cisco Packet Tracer</span>
+                    </li>
+                </ul>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="#contacto" class="bg-creamy-purple hover:bg-purple-highlight text-dark-surface font-bold py-3 px-8 rounded-lg transition duration-300 shadow-lg shadow-creamy-purple/30">
+                        Contáctame
+                    </a>
+                    <a href="#proyectos" class="bg-transparent border-2 border-creamy-purple text-creamy-purple font-bold py-3 px-8 rounded-lg hover:bg-creamy-purple/10 transition duration-300">
+                        Mis Proyectos
+                    </a>
+                </div>
+            </div>
+
+            <div class="order-1 lg:order-2 flex justify-center lg:justify-end lg:col-span-2">
+                <img src="assets/imagen.png" alt="Foto de perfil" class="w-2/3 lg:w-full max-w-xs h-auto object-cover rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="acerca-de-mi" class="py-24 px-4 sm:px-8 mx-auto max-w-6xl">
+        <h2 class="text-4xl font-bold text-text-light text-center mb-16 border-b border-creamy-purple/10 pb-4">Sobre mi</h2>
+        
+        <div class="bg-dark-surface p-8 sm:p-12 rounded-xl border border-creamy-purple/10 text-text-muted">
+            <p class="text-lg mb-6">
+                Soy un estudiante de computación con interés en redes y programación. Me gusta analizar problemas, aprender nuevas herramientas y crear soluciones funcionales. 
+            </p>
+            
+            <p class="text-lg mb-6">
+               Siempre me ha gustado entender cómo funcionan las cosas por dentro. Por eso me encuentro aprendiendo a programar y a construir redes.
+                Este portafolio es el lugar donde guardo lo que voy creando mientras sigo creciendo en el mundo de la tecnología.
+            </p>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="py-24 px-4 sm:px-8 mx-auto max-w-6xl">
+        <h2 class="text-4xl font-bold text-text-light text-center mb-16 border-b border-creamy-purple/10 pb-4">Proyectos Destacados</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-14">
+
+            <article class="bg-dark-surface p-6 rounded-xl border border-creamy-purple/10 hover:border-creamy-purple/40 transition duration-300 flex flex-col">
+                <img src="assets/project-1-screenshot.png" class="w-full h-56 object-cover rounded-lg mb-4 border border-text-muted/10">
+                <h3 class="text-2xl font-bold text-creamy-purple mb-2">Simulador de batallas pokemón</h3>
+                <p class="text-text-muted mb-3 flex-grow">Proyecto en Java que implementa un gimnasio Pokémon mediante programación orientada a objetos. Utiliza composición para modelar gimnasios, entrenadores, Pokémon y ataques, e incluye un sistema de combate por turnos con reglas de efectividad y una IA básica.</p>
+                <p class="text-sm font-semibold text-text-muted mb-4"><span class="text-purple-highlight">HTML</span>, <span class="text-purple-highlight">CSS</span>, <span class="text-purple-highlight">JavaScript</span></p>
+                <a href="https://github.com/Manfredrix/Proyecto-Pokemon.git" target="_blank" class="self-start mt-auto bg-creamy-purple text-dark-surface py-2 px-4 rounded-md font-semibold hover:bg-purple-highlight transition">Ver Código</a>
+            </article>
+
+            <article class="bg-dark-surface p-6 rounded-xl border border-creamy-purple/10 hover:border-creamy-purple/40 transition duration-300 flex flex-col">
+                <img src="assets/project-2-screenshot.png" class="w-full h-56 object-cover rounded-lg mb-4 border border-text-muted/10">
+                <h3 class="text-2xl font-bold text-creamy-purple mb-2">Tetris en consola</h3>
+                <p class="text-text-muted mb-3 flex-grow">Aplicación web responsiva para realizar operaciones básicas demostrando lógica y manejo del DOM.</p>
+                <p class="text-sm font-semibold text-text-muted mb-4"><span class="text-purple-highlight">HTML</span>, <span class="text-purple-highlight">CSS</span>, <span class="text-purple-highlight">JavaScript</span></p>
+                <a href="[ENLACE A GITHUB]" target="_blank" class="self-start mt-auto bg-creamy-purple text-dark-surface py-2 px-4 rounded-md font-semibold hover:bg-purple-highlight transition">Ver Código</a>
+            </article>
+
+            <article class="bg-dark-surface p-6 rounded-xl border border-creamy-purple/10 hover:border-creamy-purple/40 transition duration-300 flex flex-col">
+                <img src="assets/project-3-screenshot.png" class="w-full h-56 object-cover rounded-lg mb-4 border border-text-muted/10">
+                <h3 class="text-2xl font-bold text-creamy-purple mb-2">Calculadora en JavaScript</h3>
+                <p class="text-text-muted mb-3 flex-grow">Aplicación web responsiva para realizar operaciones básicas demostrando lógica y manejo del DOM.</p>
+                <p class="text-sm font-semibold text-text-muted mb-4"><span class="text-purple-highlight">HTML</span>, <span class="text-purple-highlight">CSS</span>, <span class="text-purple-highlight">JavaScript</span></p>
+                <a href="[ENLACE A GITHUB]" target="_blank" class="self-start mt-auto bg-creamy-purple text-dark-surface py-2 px-4 rounded-md font-semibold hover:bg-purple-highlight transition">Ver Código</a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- NUEVA SECCIÓN DE CONTACTO -->
+    <section id="contacto" class="py-24 px-4 sm:px-8 mx-auto max-w-5xl">
+        <h2 class="text-4xl font-bold text-text-light text-center mb-16 border-b border-creamy-purple/10 pb-4">
+            Contacto
+        </h2>
+
+        <div class="bg-dark-surface p-10 rounded-xl border border-creamy-purple/10 text-center">
+            <p class="text-lg text-text-muted mb-10">
+                Si deseas comunicarte conmigo, aquí tienes mis enlaces directos:
+            </p>
+
+            <div class="flex justify-center gap-16 text-5xl">
+
+                <a href="mailto:kenfa2007@gmail.com" class="hover:text-creamy-purple transition">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+                <a href="https://github.com/kfaerron" target="_blank" class="hover:text-creamy-purple transition">
+                    <i class="fab fa-github"></i>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark-surface text-text-muted text-center py-8 mt-16 border-t border-creamy-purple/20">
+        <p class="text-sm mb-4">&copy; 2025 | Estudiante de Ingeniería en Computación | Portafolio.</p>
+
+        <div class="flex justify-center gap-6 text-2xl">
+            <a href="mailto:kenfa2007@gmail.com" class="hover:text-creamy-purple transition">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+            <a href="https://github.com/kfaerron" target="_blank" class="hover:text-creamy-purple transition">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
+
